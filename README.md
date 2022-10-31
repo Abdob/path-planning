@@ -9,7 +9,8 @@ cd path-planning/project
 ./install-ubuntu.sh
 cd starter_files/
 cmake .
-sudo apt-get install libgtest-dev
+sudo apt-get install libgtest-dev -y
+sudo apt install libgoogle-glog-dev -y
 make
 cd nd013-c5-planning-starter/project
 ./run_main.sh
