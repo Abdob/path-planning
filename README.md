@@ -9,6 +9,7 @@ cd path-planning/project
 ./install-ubuntu.sh
 cd starter_files/
 cmake .
+sudo apt-get install libgtest-dev
 make
 cd nd013-c5-planning-starter/project
 ./run_main.sh
