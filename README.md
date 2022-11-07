@@ -3,11 +3,14 @@ cd /opt/carla-simulator/
 SDL_VIDEODRIVER=offscreen ./CarlaUE4.sh -opengl
 ```
 ```
-git clone https://github.com/udacity/nd013-c5-planning-starter.git
-cd nd013-c5-planning-starter/project
+git clone git@github.com:Abdob/path-planning.git
+
+cd path-planning/project
 ./install-ubuntu.sh
 cd starter_files/
 cmake .
+sudo apt-get install libgtest-dev -y
+sudo apt install libgoogle-glog-dev -y
 make
 cd nd013-c5-planning-starter/project
 ./run_main.sh
